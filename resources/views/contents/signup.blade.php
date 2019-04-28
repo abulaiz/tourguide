@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('page_title', 'Sign Up')
 
 @section('content')
 
