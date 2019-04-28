@@ -34,10 +34,7 @@
 					<div class="col-lg-6 col-md-6 mx-auto">
 						<form action="#" method="POST">
 							<div class="mt-20">
-								<input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required class="single-input">
-							</div>
-							<div class="mt-20">
-								<input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required class="single-input">
+								<input type="text" name="name" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'" required class="single-input">
 							</div>
 							<div class="mt-20 single-element-widget">
 								<div class="switch-wrap d-flex">
@@ -45,20 +42,21 @@
 										<input type="radio" id="default-radio" name="gender" required>
 										<label for="default-radio"></label>
 									</div>
-									<p style="margin-left: 10px; margin-top: -2px;">Laki-laki</p>
+									<p style="margin-left: 10px; margin-top: -2px;">Male</p>
 
 									<div class="primary-radio" style="margin-left: 40px;">
 										<input type="radio" id="default-radio2" name="gender" required>
 										<label for="default-radio2"></label>
 									</div>
-									<p style="margin-left: 10px; margin-top: -2px;">Perempuan</p>
+									<p style="margin-left: 10px; margin-top: -2px;">Female</p>
 								</div>
 							</div>
 							<div class="mt-20">
-								<input type="text" name="TEMPAT_LAHIR" placeholder="Tempat lahir" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tempat lahir'" required class="single-input">
+								<input type="text" name="TEMPAT_LAHIR" placeholder="Birth Place" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Birth Place'" required class="single-input">
 							</div>
 							<div class="mt-20">
-								<input type="date" name="TANGGAL_LAHIR" placeholder="Tanggal lahir" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tanggal lahir'" required class="single-input">
+								<label>Birth Date</label>
+								<input type="date" name="TANGGAL_LAHIR" placeholder="Birth Date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Birth Date'" required class="single-input">
 							</div>
 							<div class="mt-20">
 								<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required class="single-input">
@@ -66,71 +64,39 @@
 							<div class="mt-20">
 								<input type="text" name="PHONE" placeholder="Phone number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone number'" required class="single-input">
 							</div>
-							<!-- <div class="input-group-icon mt-20">
-								<div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
-								<input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'" required class="single-input">
-							</div> -->
-							<!-- <div class="input-group-icon mt-20">
-								<div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
-								<div class="form-select" id="default-select">
-									<select>
-										<option value="1">City</option>
-										<option value="1">Dhaka</option>
-										<option value="1">Dilli</option>
-										<option value="1">Newyork</option>
-										<option value="1">Islamabad</option>
-									</select>
-								</div>
-							</div> -->
-							<div class="input-group-icon mt-20">
-								<div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
-								<div class="form-select" id="default-select2">
-									<select>
-										<option value selected disabled>Country</option>
-										<option value="1">United States</option>
-										<option value="1">United Kingdom</option>
-										<option value="1">Singapore</option>
-										<option value="1">Canada</option>
-									</select>
-								</div>
-							</div>
+
 							<div class="mt-20">
 								<textarea class="single-textarea" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'" required></textarea>
 							</div>
+
 							<div class="mt-20">
-								<input type="text" class="single-input" placeholder="Kemampuan bahasa">
-							</div>
-							<div class="mt-20">
-								<div class="default-select" id="default-select3">
+								<div class="form-select" id="default-select">
 									<select class="form-select">
-										<option value selected disabled>Pendidikan Terakhir</option>
-										<option value="1">SD</option>
-										<option value="1">SMP/SLTP Sederajat</option>
-										<option value="1">SMA/SLTA Sederajat</option>
-										<option value="1">D1</option>
-										<option value="1">D2</option>
-										<option value="1">D3</option>
-										<option value="1">D4</option>
-										<option value="1">S1</option>
-										<option value="1">S2</option>
-										<option value="1">S3</option>
-										<option value="1">Pendidikan Vokasi</option>
-										<option value="1">Dll.</option>
+										<option value="" selected disabled>Education</option>
+										<option value="High School or lower">High School or lower</option>
+										<option value="Diploma / Degree">Diploma / Degree</option>
+										<option value="Post Graduate">Post Graduate</option>
+										<option value="Etc">Etc</option>
 									</select>
 								</div>
 							</div>
 							<div class="mt-20">
-								<input type="file" name="SERTIFIKAT" class="single-input" placeholder="Sertifikat/Lisensi">
+								<label>Attach Certificate</label>
+								<input type="file" name="SERTIFIKAT" class="single-input" placeholder="Your Certificates">
 							</div>
-							<!-- <div class="mt-20">
-								<input type="password" name="PASSWORD" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required class="single-input" id="password" onkeyup="return checkPassword()">
-							</div>
-							<div class="mt-20">
-								<input type="password" name="COMFIRM_PASSWORD" placeholder="Confirm password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Confirm password'" required class="single-input" id="retype-password" onkeyup="return checkPassword()">
-								<small class="text-danger d-none" id="password-alert">Password didn't match</small>
-							</div> -->
+
 							<div class="mt-30">
-								<a href="#" class="genric-btn primary circle pull-right">Sign Up</a>
+								<a href="#" class="genric-btn primary circle pull-right">Propose</a>
+							</div>
+
+							<div class="mt-20">
+		                        <select style="display: none;" multiple id="selectize-multiple2">
+		                            <option value="">Your Language Ability</option>
+		                            <option value="1">English</option>
+		                            <option value="2">German</option>
+		                            <option value="3">Japanese</option>
+		                            <option value="4">Mandarin</option>
+		                        </select>
 							</div>
 						</form>
 					</div>
@@ -143,5 +109,10 @@
 @endsection
 
 @section('customJS')
-	<script src="../../../assets1/js/view/signup.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../../ext/css/selectize.css">
+	<link rel="stylesheet" type="text/css" href="../../../ext/css/selectize.default.css">
+	<link rel="stylesheet" type="text/css" href="../../../ext/css/selectize.min.css">
+	<script src="../../../ext/js/selectize.min.js" type="text/javascript"></script>  
+
+	<script src="../../../assets1/js/view/signup2.js"></script>
 @endsection

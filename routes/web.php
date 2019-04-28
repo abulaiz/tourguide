@@ -15,8 +15,14 @@
 Auth::routes();
 
 Route::get('/', function(){
+
+	if(Auth::check()){
+		if(Auth::user()->hasRole('admin')){
+			return View('contents.admin.index');
+		}
+	}
 	return View('contents.index');
-})->name('landing_page');
+});
 
 Route::get('/destination', function() {
 	return View('contents.destinations');

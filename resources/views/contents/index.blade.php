@@ -282,7 +282,7 @@
 							<p>
 								Tour guide is a person who provides assistance, information on cultural, historical and contemporary heritage to people on organized tours and individual clients at educational establishments, religious and historical sites, museums, and at venues of other significant interest, attractions sites.
 							</p>
-							<a href="#" class="primary-btn text-uppercase">apply as a tour guide</a>
+							<a href="apply-tour-guide" class="primary-btn text-uppercase">apply as a tour guide</a>
 						</div>
 						<div class="col-lg-6 col-md-12 home-about-right no-padding">
 							<img class="img-fluid" src="../../../assets1/img/tour-guide.jpg" alt="">
