@@ -29,3 +29,7 @@ Route::get('/signup', function() {
 Route::get('/gift-shop', function() {
 	return View('contents.giftshop');
 });
+
+Route::get('/apply-tour-guide', function() {
+	return View('contents.applytourguide');
+});
