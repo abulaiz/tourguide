@@ -31,8 +31,12 @@
 	          <li><a href="about.html">Destinations</a></li>
 	          <li><a href="packages.html">Gift Shop</a></li>
 	          <li><a href="hotels.html">Join As Tour Guide</a></li>
+			  @if (Auth::check())
+			  <li><a href="hotels.html">Wkwk</a></li>
+			  @else
+			  <li><a data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false" href="#">Login</a></li>
+			  @endif
 
-	          <li><a data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false" href="#">Login</a></li>
 	          <li>
 	          	
 	          </li>
