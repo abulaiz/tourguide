@@ -290,8 +290,15 @@
 					</div>
 				</div>	
 			</section>
-			<!-- End other-issue Area -->
-			
+			<!-- End other-issue Area -->			
+@endsection
 
-			
+@section('customJS')
+	<link rel="stylesheet" href="../../../ext/css/toastr.css">
+	<script src="../../../ext/js/toastr.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+      toastr.success('You can login now :).', 'Sign Up Success!', {
+        positionClass: 'toast-bottom-right', containerId: 'toast-bottom-right', 'showMethod': 'slideDown', 'hideMethod': 'slideUp', timeOut: 6000});		
+	</script>
 @endsection
