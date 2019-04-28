@@ -9,6 +9,8 @@
 
 			@yield('content')
 
+			@include('modals.login')
+
 			@include('layouts.footer')
 
 			<script src="../../../assets1/js/vendor/jquery-2.2.4.min.js"></script>

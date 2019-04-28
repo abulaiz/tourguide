@@ -15,3 +15,9 @@
     background: url(../assets1/img/japan.png);
     background-size: cover; 	
 }
+
+.bann2{
+	background: url(../assets1/img/findguide.jpg) center !important;
+	    background-size: auto !important; 
+	background-size: cover !important;	
+}
