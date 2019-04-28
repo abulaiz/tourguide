@@ -3,6 +3,7 @@
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Role;
 use App\User;
+use App\Tourist;
 
 class AuthSeeder extends Seeder
 {
@@ -51,6 +52,10 @@ class AuthSeeder extends Seeder
             $user3->password = bcrypt('johndoe123');
             $user3->save();
             $user3->assignRole('tourist');
+
+            Tourist::create([
+                'user_id' => $user3->id ,'country' => 'Germany', 'phone' => '+494245232'
+            ]);
         }
 
     }

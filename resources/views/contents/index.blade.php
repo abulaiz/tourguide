@@ -294,6 +294,7 @@
 @endsection
 
 @section('customJS')
+	@if(Session::has('_e'))
 	<link rel="stylesheet" href="../../../ext/css/toastr.css">
 	<script src="../../../ext/js/toastr.min.js" type="text/javascript"></script>
 
@@ -301,4 +302,5 @@
       toastr.success('You can login now :).', 'Sign Up Success!', {
         positionClass: 'toast-bottom-right', containerId: 'toast-bottom-right', 'showMethod': 'slideDown', 'hideMethod': 'slideUp', timeOut: 6000});		
 	</script>
+	@endif
 @endsection
