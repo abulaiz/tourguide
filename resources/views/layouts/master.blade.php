@@ -25,7 +25,6 @@
 			<script src="../../../assets1/js/owl.carousel.min.js"></script>							
 			<script src="../../../assets1/js/mail-script.js"></script>	
 			<script src="../../../assets1/js/main.js"></script>	
-
 			@yield('customJS')
 
 		</body>

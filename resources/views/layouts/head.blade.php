@@ -1,7 +1,7 @@
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="shortcut icon" href="../../../assets1/img/fav.png">
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
@@ -26,3 +26,4 @@
 		<link rel="stylesheet" href="../../../assets1/css/animate.min.css">
 		<link rel="stylesheet" href="../../../assets1/css/owl.carousel.css">				
 		<link rel="stylesheet" href="../../../assets1/css/main.css">
+		<link rel="stylesheet" href="../../../css/style.css">

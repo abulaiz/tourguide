@@ -1,0 +1,17 @@
+.nav-btn{
+	position: fixed;
+}
+
+.sel-language{
+	cursor: pointer;
+}
+
+.uk-nation{
+    background: url(../assets1/img/uk.png);
+    background-size: cover; 	
+}
+
+.japan-nation{
+    background: url(../assets1/img/japan.png);
+    background-size: cover; 	
+}
