@@ -3230,7 +3230,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .insurence-right p, .insurence-left p {
-  max-width: 445px;
+  max-width: 100%;
 }
 
 .insurence-right img, .insurence-left img {
@@ -3239,7 +3239,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .list-wrap {
   background: #fbfcff;
-  max-width: 445px;
+  max-width: 520px;
   padding: 30px;
 }
 
@@ -4499,4 +4499,8 @@ input[type=date]::-webkit-inner-spin-button,
 input[type=date]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+.star .checked {
+  color: #f8b600;
 }

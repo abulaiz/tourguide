@@ -37,3 +37,10 @@ Route::get('/apply-tour-guide', function() {
 	return View('contents.applytourguide');
 });
 
+Route::get('/find-guide', function() {
+	return View('contents.findguide');
+});
+
+Route::get('/guide-detail/{id}', function() {
+	return View('contents.guidedetail');
+});
