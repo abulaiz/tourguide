@@ -26,4 +26,14 @@ Route::get('/signup', function() {
 	return View('contents.signup');
 });
 
+
 Route::post('/signup', 'Auth\CustomLoginController@custom_signup')->name('signup');
+
+Route::get('/gift-shop', function() {
+	return View('contents.giftshop');
+});
+
+Route::get('/apply-tour-guide', function() {
+	return View('contents.applytourguide');
+});
+
