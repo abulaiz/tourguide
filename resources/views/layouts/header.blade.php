@@ -31,7 +31,8 @@
 	          <li><a href="about.html">Destinations</a></li>
 	          <li><a href="packages.html">Gift Shop</a></li>
 	          <li><a href="hotels.html">Join As Tour Guide</a></li>
-	          <li><a href="#">Login</a></li>
+
+	          <li><a data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false" href="#">Login</a></li>
 	          <li>
 	          	
 	          </li>
