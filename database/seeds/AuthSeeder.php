@@ -36,15 +36,6 @@ class AuthSeeder extends Seeder
             $user1->assignRole('admin');
         }
 
-        if (!User::where('email', 'herman@gmail.com')->exists()) {
-            $user2 = new User();
-            $user2->name = 'herman';
-            $user2->email = 'herman@gmail.com';
-            $user2->password = bcrypt('herman123');
-            $user2->save();
-            $user2->assignRole('tourguide');
-        }
-
         if (!User::where('email', 'johndoe@gmail.com')->exists()) {
             $user3 = new User();
             $user3->name = 'johndoe';

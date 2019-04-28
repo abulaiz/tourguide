@@ -11,83 +11,42 @@
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-
           <li class="nav-item @yield('dashboard')">
             <a class="nav-link" href="/">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
           </li>
-
-          <li class="nav-item @yield('jurusan')">
-            <a class="nav-link" href="/jurusan">
-              <i class="material-icons">vertical_split</i>
-              <p>Data Jurusan</p>
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <i class="material-icons">assignment_ind</i>
+              <p>Pengajuan Tour Guide</p>
+            </a>
+          </li>                
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <i class="material-icons">account_balance</i>
+              <p>Destinasi Wisata</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="material-icons">folder_shared</i>
-              <p>Data Kelas</p>
+            <a class="nav-link" href="/">
+              <i class="material-icons">store</i>
+              <p>Toko Buah Tangan</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="material-icons">business</i>
-              <p>Data Ruangan</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="material-icons">extension</i>
-              <p>Data Matakuliah</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="material-icons">perm_contact_calendar</i>
-              <p>Data Dosen</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/">
               <i class="material-icons">supervisor_account</i>
-              <p>Data Mahasiswa</p>
+              <p>Kelola Turis</p>
             </a>
-          </li>
+          </li> 
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="material-icons">person_pin</i>
-              <p>Data User</p>
+            <a class="nav-link" href="/">
+              <i class="material-icons">how_to_reg</i>
+              <p>Kelola Tour Guide</p>
             </a>
-          </li>
-
-          <li class="nav-item @yield('absensi')">
-            <a class="nav-link" href="/absensi">
-              <i class="material-icons">assigment</i>
-              <p>Data Absensi</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="material-icons">calendar_today</i>
-              <p>Penjadwalan</p>
-            </a>
-          </li>     
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="material-icons">launch</i>
-              <p>Data Nilai</p>
-            </a>
-          </li>               
-
-          <li class="nav-item @yield('nilai')">
-            <a class="nav-link" href="/hasil_nilai">
-              <i class="material-icons">tab</i>
-              <p>Nilai</p>
-            </a>
-          </li>
-
+          </li>                         
         </ul>
       </div>
     </div>

@@ -14,11 +14,12 @@ class TourGuide extends Migration
     public function up()
     {
         Schema::create('guides', function (Blueprint $table) {
-            $table->unsignedInteger('user_id');
-            $table->char('gender', 1);
+            $table->unsignedInteger('user_id')->nullabel();
+            $table->string('gender', 10);
             $table->date('date_birth');
             $table->string('place_birth', 50);
-            $table->string('educational_background');            
+            $table->string('educational_background'); 
+            $table->string('description');           
             $table->timestamps();
 
             $table->foreign('user_id')

@@ -14,6 +14,8 @@
 
 Auth::routes();
 
+include 'mod_route/admin.php';
+
 Route::get('/', function(){
 
 	if(Auth::check()){
