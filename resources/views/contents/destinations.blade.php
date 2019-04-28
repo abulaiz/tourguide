@@ -102,11 +102,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/tangkuban-parahu.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Tangkuban Parahu</h3></a>
+							<a class="posts-title" href="/destination-detail/1"><h3>Tangkuban Parahu</h3></a>
 							<p class="excert">
 								Active volcanic peak featuring 3 craters & a cavern situated 30 km north of the city of Bandung in the direction of Lembang, with guided tours & food/souvenir vendors.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/destination-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -127,11 +127,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/gedung-sate.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Gedung Sate</h3></a>
+							<a class="posts-title" href="/destination-detail/1"><h3>Gedung Sate</h3></a>
 							<p class="excert">
 								Grand Dutch colonial administration building dating to the 1920s, now West Java's government house. Gedung Sate is a public building in Bandung, West Java, Indonesia. It was designed according to a neoclassical design incorporating native Indonesian elements by Dutch architect J. Gerber to be the seat of the Dutch East Indies department of State Owned Enterprises; the building was completed in 1920.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/destination-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -152,11 +152,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/trans-studio.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Trans Studio Bandung</h3></a>
+							<a class="posts-title" href="/destination-detail/1"><h3>Trans Studio Bandung</h3></a>
 							<p class="excert">
 								Family-focused indoor theme park with thrill rides, a theater & play areas for younger children.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/destination-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -178,11 +178,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/bandung3.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Braga Street</h3></a>
+							<a class="posts-title" href="/destination-detail/1"><h3>Braga Street</h3></a>
 							<p class="excert">
 								Braga Street is a small street in the center of Bandung, Indonesia, which was famous in the 1920s as a promenade street. Chic cafes, boutiques and restaurants with European.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/destination-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -204,11 +204,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/geological-museum.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Bandung Geological Museum</h3></a>
+							<a class="posts-title" href="/destination-detail/1"><h3>Bandung Geological Museum</h3></a>
 							<p class="excert">
 								1928 museum with exhibits ranging from rocks & minerals to invertebrate & vertebrate fossils. The Bandung Geological Museum opened in Bandung, Indonesia in 1928. On December 10, 1871, six meteorites fell in Sindanglaut, West Java, Indonesia. This rare fall of a LL6 chondrite included an 11.5 kg TKW that is held by the Bandung Geological Museum and the Paris Museum of History.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/destination-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>														
 					<nav class="blog-pagination justify-content-center d-flex">
@@ -252,7 +252,7 @@
 										<img class="img-fluid" src="../../../assets1/img/blog/pp1.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Space The Final Frontier</h6></a>
+										<a href="/destination-detail/1"><h6>Space The Final Frontier</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -261,7 +261,7 @@
 										<img class="img-fluid" src="../../../assets1/img/blog/pp2.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>The Amazing Hubble</h6></a>
+										<a href="/destination-detail/1"><h6>The Amazing Hubble</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -270,7 +270,7 @@
 										<img class="img-fluid" src="../../../assets1/img/blog/pp3.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Astronomy Or Astrology</h6></a>
+										<a href="/destination-detail/1"><h6>Astronomy Or Astrology</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -279,7 +279,7 @@
 										<img class="img-fluid" src="../../../assets1/img/blog/pp4.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Asteroids telescope</h6></a>
+										<a href="/destination-detail/1"><h6>Asteroids telescope</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>															

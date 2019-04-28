@@ -44,3 +44,7 @@ Route::get('/find-guide', function() {
 Route::get('/guide-detail/{id}', function() {
 	return View('contents.guidedetail');
 });
+
+Route::get('/destination-detail/{id}', function() {
+	return View('contents.destinationdetail');
+});
