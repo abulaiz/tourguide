@@ -5,6 +5,12 @@
 			Route::get('submissions', function(){
 				return View('contents.admin.submission');
 			});
+			Route::get('guides', function(){
+				return View('contents.admin.guides');
+			});			
+			Route::get('tourist', function(){
+				return View('contents.admin.tourist');
+			});	
 
 		});
 	});

@@ -17,8 +17,8 @@
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">
+          <li class="nav-item @yield('submissions')">
+            <a class="nav-link" href="/submissions">
               <i class="material-icons">assignment_ind</i>
               <p>Pengajuan Tour Guide</p>
             </a>

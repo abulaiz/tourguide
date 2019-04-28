@@ -1,49 +1,49 @@
 @extends('layout.bases')
-@section('page_title', 'Pengajuan')
-@section('submissions', 'active')
+@section('page_title', 'Tourist')
 
 @section('content')
 
 @php
 
   $datas = [
-    ['tanggal' => '23 April 2019', 'nama' => 'Ahmad Salimin', 'gender' => 'Laki-laki', 'pendidikan' => 'Sarjana'],
-    ['tanggal' => '22 April 2019', 'nama' => 'Ananda Dwi', 'gender' => 'Perempuan', 'pendidikan' => 'Diploma'],
-    ['tanggal' => '21 April 2019', 'nama' => 'Suhartini', 'gender' => 'Perempuan', 'pendidikan' => 'SMA Sederajat'],
+    ['nama' => 'Alex Aliester', 'gender' => 'Laki-laki', 'country' => 'Jerman', 'has_trip' => '2'],
+    ['nama' => 'Lena', 'gender' => 'Perempuan', 'country' => 'Jerman', 'has_trip' => '1'],
+    ['nama' => 'Martin Zuberg', 'gender' => 'Laki-laki', 'country' => 'Swiss', 'has_trip' => '3'],
+    ['nama' => 'Raphael Albert', 'gender' => 'Laki-laki', 'country' => 'Belanda', 'has_trip' => '0'],
+    ['nama' => 'Zlatan Mourinho', 'gender' => 'Perempuan', 'country' => 'Italy', 'has_trip' => '1']
   ];
 
 @endphp
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title ">Daftar Pengajuan Tour Guide</h4>
+                  <h4 class="card-title ">Daftar Turis Asing</h4>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
                     <table class="table">
                       <thead class=" text-primary">
-                        <th>Tanggal Pengajuan</th>
                         <th>Nama</th>
                         <th>Jenis Kelamin</th>
-                        <th>Pendidikan Terakhir</th>
+                        <th>Negara</th>
+                        <th>Jumlah Kunjungan</th>
                         <th>Tindakan</th>
                       </thead>
                       <tbody>
                         @foreach($datas as $item)
                         <tr>
-                          <td>{{ $item['tanggal'] }}</td>
                           <td>{{ $item['nama'] }}</td>
                           <td>{{ $item['gender'] }}</td>
-                          <td>{{ $item['pendidikan'] }}</td>
+                          <td>{{ $item['country'] }}</td>
+                          <td>{{ $item['has_trip'] }}</td>
                           <td>
                             <button class="btn btn-outline-primary btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tindakan</button>
                             <div class="dropdown-menu" x-placement="bottom-start">
                               <a class="dropdown-item">
-                                <i class="fa fa-eye mr-1"></i>Detail</a> 
-                              <a class="dropdown-item">               
-                                <i class="fa fa-check mr-1"></i>Terima</a>  
+                                <i class="fa fa-eye mr-1"></i>Detail</a>  
+                                <i class="fa fa-clock mr-1"></i>Riwayat Booking</a>  
                               <a class="dropdown-item">                
-                                <i class="fa fa-times mr-1"></i>Tolak</a>                
+                                <i class="fa fa-trash mr-1"></i>Hapus Akunn</a>                
                             </div>            
                           </td>
                         </tr>
