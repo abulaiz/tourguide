@@ -4504,3 +4504,44 @@ input[type=date]::-webkit-outer-spin-button {
 .star .checked {
   color: #f8b600;
 }
+
+.single-price {
+  background: #fff;
+  padding: 30px;
+}
+
+.single-price h4 {
+  text-align: center;
+  border-bottom: 1px solid #f8b600;
+  padding-bottom: 20px;
+  padding-top: -40px;
+}
+
+.single-price .price-list {
+  margin-top: 30px;
+}
+
+.single-price .price-list li {
+  margin-bottom: 10px;
+}
+
+.single-price .price-list li .price-btn {
+  background: #f9f9ff;
+  border: 1px solid #eee;
+  color: #222;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.single-price .price-list li .price-btn:hover {
+  border-color: #f8b600;
+  background: #f8b600;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .single-price {
+    margin-bottom: 30px;
+  }
+}

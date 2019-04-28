@@ -95,7 +95,6 @@
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
 								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9 ">
@@ -120,7 +119,6 @@
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
 								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9 ">
@@ -145,7 +143,6 @@
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
 								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9">
@@ -171,7 +168,6 @@
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
 								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9">
@@ -197,7 +193,6 @@
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
 								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9">

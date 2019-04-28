@@ -25,7 +25,7 @@
 			    <div class="menu-content pb-10 col-lg-8">
 			        <div class="title text-center">
 			            <h1 class="mb-10 mt-60">Find a Tour Guide</h1>
-			            <p>Sign Up here to unlock more features.<br>Already have an account? <a href="#">Sign In</a></p>
+			            <p>Find the most suitable Tour Guides for your needs</p>
 			        </div>
 			    </div>
 			</div>
