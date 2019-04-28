@@ -12,7 +12,7 @@
                     <div class="form-group">
                         <label for="name">Email</label>
                         <input placeholder="Your Email" type="text" name="email" class="form-control" required autofocus>
-                    </div>                    
+                    </div>                                     
                     <div class="form-group">
                         <label for="name">Password</label>
                         <input type="password" required placeholder="Your Password" name="password" class="form-control"></input>
