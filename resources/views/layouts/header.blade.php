@@ -33,8 +33,8 @@
 	        <ul class="nav-menu">
 	          <li><a href="/">Home</a></li>
 	          <li><a href="/destination">Destinations</a></li>
-	          <li><a href="packages.html">Gift Shop</a></li>
-	          <li><a href="hotels.html">Join As Tour Guide</a></li>
+	          <li><a href="/gift-shop">Gift Shop</a></li>
+	          <li><a href="/apply-tour-guide">Join As Tour Guide</a></li>
 			  @if ($has_login)
 	          <li class="menu-has-children"><a href="#">My Account</a>
 	            <ul>
