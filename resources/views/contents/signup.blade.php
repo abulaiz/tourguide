@@ -74,7 +74,11 @@
 								</div>
 							</div>
 							<div class="mt-20">
-								<input type="password" name="PASSWORD" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required class="single-input">
+								<input type="password" name="PASSWORD" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required class="single-input" id="password" onkeyup="return checkPassword()">
+							</div>
+							<div class="mt-20">
+								<input type="password" name="COMFIRM_PASSWORD" placeholder="Confirm password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Confirm password'" required class="single-input" id="retype-password" onkeyup="return checkPassword()">
+								<small class="text-danger d-none" id="password-alert">Password didn't match</small>
 							</div>
 							<div class="mt-30">
 								<a href="#" class="genric-btn primary circle pull-right">Sign Up</a>
@@ -87,4 +91,8 @@
 	</div>
 	<!-- End Align Area -->
 
+@endsection
+
+@section('customJS')
+	<script src="../../../assets1/js/view/signup.js"></script>
 @endsection
