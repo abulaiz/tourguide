@@ -18,7 +18,7 @@ class TourGuide extends Migration
             $table->char('gender', 1);
             $table->date('date_birth');
             $table->string('place_birth', 50);
-            $table->string('educational_background');
+            $table->string('educational_background');            
             $table->timestamps();
 
             $table->foreign('user_id')

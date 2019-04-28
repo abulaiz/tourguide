@@ -268,7 +268,7 @@
 			</section>
 			<!-- End price Area -->
 			
-
+			@if(!Auth::check())
 			<!-- Start other-issue Area -->
 			<section class="home-about-area">
 				<div class="container-fluid">
@@ -290,7 +290,8 @@
 					</div>
 				</div>	
 			</section>
-			<!-- End other-issue Area -->			
+			<!-- End other-issue Area -->
+			@endif			
 @endsection
 
 @section('customJS')

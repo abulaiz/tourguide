@@ -440,6 +440,8 @@ class ComposerStaticInitb6cf6108763c3c8b58bd6a2e7077e9d7
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Guide' => __DIR__ . '/../..' . '/app/Guide.php',
+        'App\\GuideAbility' => __DIR__ . '/../..' . '/app/GuideAbility.php',
         'App\\Http\\Controllers\\Auth\\CustomLoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/CustomLoginController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
@@ -461,6 +463,7 @@ class ComposerStaticInitb6cf6108763c3c8b58bd6a2e7077e9d7
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Tourist' => __DIR__ . '/../..' . '/app/Tourist.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'AuthSeeder' => __DIR__ . '/../..' . '/database/seeds/AuthSeeder.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
