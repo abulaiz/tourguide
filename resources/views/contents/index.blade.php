@@ -11,10 +11,7 @@
 							<h6 class="text-white">Away from monotonous life</h6>
 							<h1 class="text-white">Stunning Bandung</h1>
 							<p class="text-white">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.
+								The cooler climate of the highland plantation area, variety of food, less expensive fashion shops located in factory outlets and distros, golf courses, scenery, and the zoo, are some of the attractions of the city. Bandung is also a popular shopping destination due to cheap textile and fashion products. <b>Best city ever</b>.
 							</p>
 							<a href="#" class="primary-btn text-uppercase">Sign Up</a>
 						</div>
@@ -29,7 +26,7 @@
 		            <div class="row d-flex justify-content-center">
 		                <div class="menu-content pb-70 col-lg-8">
 		                    <div class="title text-center">
-		                        <h1 class="mb-10">Popular Destinations</h1>
+		                        <h1 class="mb-10">Popular Destination</h1>
 		                        <p>Here are some popular destinations in our city.</p>
 		                    </div>
 		                </div>
@@ -39,11 +36,11 @@
 							<div class="single-destination relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<img class="img-fluid" src="../../../assets1/img/d1.jpg" alt="">
+									<img class="img-fluid" src="../../../assets1/img/hill.jpg" alt="">
 								</div>
 								<div class="desc">	
 									<a href="#" class="price-btn">See More</a>			
-									<h4>Mountain River</h4>
+									<h4>Moko Hill</h4>
 									<p>Lembang</p>			
 								</div>
 							</div>
@@ -52,7 +49,7 @@
 							<div class="single-destination relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<img class="img-fluid" src="../../../assets1/img/street.jpg" alt="">
+									<img class="img-fluid" src="../../../assets1/img/bandung3.jpg" alt="">
 								</div>
 								<div class="desc">	
 									<a href="#" class="price-btn">See More</a>			
@@ -65,12 +62,12 @@
 							<div class="single-destination relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<img class="img-fluid" src="../../../assets1/img/d3.jpg" alt="">
+									<img class="img-fluid" src="../../../assets1/img/floating-market.jpg" alt="">
 								</div>
 								<div class="desc">	
 									<a href="#" class="price-btn">See More</a>			
-									<h4>Cloud Mountain</h4>
-									<p>Dago</p>			
+									<h4>Floating Market</h4>
+									<p>Lembang</p>			
 								</div>
 							</div>
 						</div>												
@@ -295,15 +292,12 @@
 								It'll be great
 							</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.
+								Tour guide is a person who provides assistance, information on cultural, historical and contemporary heritage to people on organized tours and individual clients at educational establishments, religious and historical sites, museums, and at venues of other significant interest, attractions sites.
 							</p>
 							<a href="#" class="primary-btn text-uppercase">apply as a tour guide</a>
 						</div>
 						<div class="col-lg-6 col-md-12 home-about-right no-padding">
-							<img class="img-fluid" src="../../../assets1/img/tourguide.jpg" alt="">
+							<img class="img-fluid" src="../../../assets1/img/tour-guide.jpg" alt="">
 						</div>
 					</div>
 				</div>	

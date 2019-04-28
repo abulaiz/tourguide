@@ -17,3 +17,7 @@ Auth::routes();
 Route::get('/', function(){
 	return View('contents.index');
 });
+
+Route::get('/destination', function() {
+	return View('contents.destinations');
+});

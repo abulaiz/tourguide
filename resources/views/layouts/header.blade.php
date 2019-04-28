@@ -27,8 +27,8 @@
 	      </div>
 	      <nav id="nav-menu-container">
 	        <ul class="nav-menu">
-	          <li><a href="index.html">Home</a></li>
-	          <li><a href="about.html">Destinations</a></li>
+	          <li><a href="/">Home</a></li>
+	          <li><a href="/destination">Destinations</a></li>
 	          <li><a href="packages.html">Gift Shop</a></li>
 	          <li><a href="hotels.html">Join As Tour Guide</a></li>
 			  @if (Auth::check())
