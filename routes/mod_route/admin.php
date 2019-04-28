@@ -12,6 +12,14 @@
 				return View('contents.admin.tourist');
 			});	
 
+			Route::get('destinasi', function() {
+				return View('contents.admin.destinasi');
+			});
+
+			Route::get('toko-buah-tangan', function() {
+				return View('contents.admin.tokobuahtangan');
+			});			
+
 		});
 	});
 
