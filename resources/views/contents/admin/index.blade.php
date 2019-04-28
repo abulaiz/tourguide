@@ -4,65 +4,46 @@
 
 @section('content')
           <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-warning card-header-icon">
-                  <div class="card-icon">
-                    <i class="material-icons">content_copy</i>
-                  </div>
-                  <p class="card-category">Used Space</p>
-                  <h3 class="card-title">49/50
-                    <small>GB</small>
-                  </h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons text-danger">warning</i>
-                    <a href="#pablo">Get More Space...</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="card card-stats">
                 <div class="card-header card-header-success card-header-icon">
                   <div class="card-icon">
-                    <i class="material-icons">store</i>
+                    <i class="material-icons">face</i>
                   </div>
-                  <p class="card-category">Revenue</p>
-                  <h3 class="card-title">$34,245</h3>
+                  <p class="card-category">Turis yang Terdaftar</p>
+                  <h3 class="card-title">220rb</h3>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">date_range</i> Last 24 Hours
+                    <i class="material-icons">flag</i> Dari Berbagai Negara
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="card card-stats">
                 <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
-                    <i class="material-icons">info_outline</i>
+                    <i class="material-icons">landscape</i>
                   </div>
-                  <p class="card-category">Fixed Issues</p>
+                  <p class="card-category">Jumlah Destinasi Wisata</p>
                   <h3 class="card-title">75</h3>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">local_offer</i> Tracked from Github
+                    <i class="material-icons">date_range</i> Terakhir Ditambahkan 28/04/2019
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="card card-stats">
                 <div class="card-header card-header-info card-header-icon">
                   <div class="card-icon">
-                    <i class="fa fa-twitter"></i>
+                    <i class="material-icons">store</i>
                   </div>
-                  <p class="card-category">Followers</p>
-                  <h3 class="card-title">+245</h3>
+                  <p class="card-category">Jumlah Toko Oleh-Oleh</p>
+                  <h3 class="card-title">245</h3>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
@@ -71,5 +52,55 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-6 col-md-8 col-sm-8 mx-auto">
+              <div class="card card-chart">
+                <div class="card-header card-header-primary">
+                  <div class="ct-chart" id="languageChart" style="height: 300px"></div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Penguasaan Bahasa</h4>
+                  <p class="card-category">Persentase penguasaan bahasa para Tour Guide</p>
+                  </div>
+                  <div class="card-footer">
+                    <div class="stats">
+                      <i class="material-icons">person</i> dari 75 Tour Guide
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
+@endsection
+
+@section('customJS')
+
+  <script>
+    var data = {
+      labels: ['English (20%)', 'Indonesian (35%)', 'Mandarin (25%)', 'Japanese (10%)', 'Korean (10%)'],
+      series: [20, 35, 25, 10, 10]
+    };
+
+    var options = {
+      labelInterpolationFnc: function(value) {
+        return value[0]
+      }
+    };
+
+    var responsiveOptions = [
+      ['screen and (min-width: 640px)', {
+        chartPadding: 30,
+        labelOffset: 100,
+        labelDirection: 'explode',
+        labelInterpolationFnc: function(value) {
+          return value;
+        }
+      }],
+      ['screen and (min-width: 1024px)', {
+        labelOffset: 20,
+        chartPadding: 20
+      }]
+    ];
+
+    new Chartist.Pie('.ct-chart', data, options, responsiveOptions);
+  </script>
+
 @endsection
