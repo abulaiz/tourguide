@@ -21,3 +21,7 @@ Route::get('/', function(){
 Route::get('/destination', function() {
 	return View('contents.destinations');
 });
+
+Route::get('/signup', function() {
+	return View('contents.signup');
+});

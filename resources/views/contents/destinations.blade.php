@@ -11,7 +11,7 @@
 					<h1 class="text-white">
 						Destinations			
 					</h1>	
-					<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> Destinations</a></p>
+					<p class="text-white link-nav"><a href="/">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Destinations</a></p>
 				</div>	
 			</div>
 		</div>
@@ -86,28 +86,25 @@
 					<div class="single-post row">
 						<div class="col-lg-3  col-md-3 meta-details">
 							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
+								<li><a href="#">View,</a></li>
+								<li><a href="#">Scenery,</a></li>
+								<li><a href="#">Mountain,</a></li>
+								<li><a href="#">Highland</a></li>
 							</ul>
 							<div class="user-details row">
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
+								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
 								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9 ">
 							<div class="feature-img">
-								<img class="img-fluid" src="../../../assets1/img/blog/feature-img1.jpg" alt="">
+								<img class="img-fluid" src="../../../assets1/img/tangkuban-parahu.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Astronomy Binoculars A Great Alternative</h3></a>
+							<a class="posts-title" href="blog-single.html"><h3>Tangkuban Parahu</h3></a>
 							<p class="excert">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.
+								Active volcanic peak featuring 3 craters & a cavern situated 30 km north of the city of Bandung in the direction of Lembang, with guided tours & food/souvenir vendors.
 							</p>
 							<a href="blog-single.html" class="primary-btn">View More</a>
 						</div>
@@ -115,28 +112,24 @@
 					<div class="single-post row">
 						<div class="col-lg-3  col-md-3 meta-details">
 							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
+								<li><a href="#">Building,</a></li>
+								<li><a href="#">Architecture,</a></li>
+								<li><a href="#">Historical</a></li>
 							</ul>
 							<div class="user-details row">
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
+								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
 								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9 ">
 							<div class="feature-img">
-								<img class="img-fluid" src="../../../assets1/img/blog/feature-img2.jpg" alt="">
+								<img class="img-fluid" src="../../../assets1/img/gedung-sate.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>The Basics Of Buying A Telescope</h3></a>
+							<a class="posts-title" href="blog-single.html"><h3>Gedung Sate</h3></a>
 							<p class="excert">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.
+								Grand Dutch colonial administration building dating to the 1920s, now West Java's government house. Gedung Sate is a public building in Bandung, West Java, Indonesia. It was designed according to a neoclassical design incorporating native Indonesian elements by Dutch architect J. Gerber to be the seat of the Dutch East Indies department of State Owned Enterprises; the building was completed in 1920.
 							</p>
 							<a href="blog-single.html" class="primary-btn">View More</a>
 						</div>
@@ -144,28 +137,24 @@
 					<div class="single-post row">
 						<div class="col-lg-3  col-md-3 meta-details">
 							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
+								<li><a href="#">Indoor,</a></li>
+								<li><a href="#">Theme Park,</a></li>
+								<li><a href="#">Rides,</a></li>
 							</ul>
 							<div class="user-details row">
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
+								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
 								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9">
 							<div class="feature-img">
-								<img class="img-fluid" src="../../../assets1/img/blog/feature-img3.jpg" alt="">
+								<img class="img-fluid" src="../../../assets1/img/trans-studio.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>The Glossary Of Telescopes</h3></a>
+							<a class="posts-title" href="blog-single.html"><h3>Trans Studio Bandung</h3></a>
 							<p class="excert">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.
+								Family-focused indoor theme park with thrill rides, a theater & play areas for younger children.
 							</p>
 							<a href="blog-single.html" class="primary-btn">View More</a>
 						</div>
@@ -173,28 +162,25 @@
 					<div class="single-post row">
 						<div class="col-lg-3  col-md-3 meta-details">
 							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
+								<li><a href="#">Street,</a></li>
+								<li><a href="#">City,</a></li>
+								<li><a href="#">Views,</a></li>
 								<li><a href="#">Lifestyle</a></li>
 							</ul>
 							<div class="user-details row">
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
+								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
 								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9">
 							<div class="feature-img">
-								<img class="img-fluid" src="../../../assets1/img/blog/feature-img4.jpg" alt="">
+								<img class="img-fluid" src="../../../assets1/img/bandung3.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>The Night Sky</h3></a>
+							<a class="posts-title" href="blog-single.html"><h3>Braga Street</h3></a>
 							<p class="excert">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.
+								Braga Street is a small street in the center of Bandung, Indonesia, which was famous in the 1920s as a promenade street. Chic cafes, boutiques and restaurants with European.
 							</p>
 							<a href="blog-single.html" class="primary-btn">View More</a>
 						</div>
@@ -202,28 +188,25 @@
 					<div class="single-post row">
 						<div class="col-lg-3 col-md-3 meta-details">
 							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
+								<li><a href="#">Museum,</a></li>
+								<li><a href="#">Historical,</a></li>
+								<li><a href="#">Building,</a></li>
+								<li><a href="#">Architecture</a></li>
 							</ul>
 							<div class="user-details row">
 								<!-- <p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p> -->
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
+								<p class="date col-lg-12 col-md-12 col-6"><a href="#">28 Apr, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
 								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>						
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9">
 							<div class="feature-img">
-								<img class="img-fluid" src="../../../assets1/img/blog/feature-img5.jpg" alt="">
+								<img class="img-fluid" src="../../../assets1/img/geological-museum.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Telescopes 101</h3></a>
+							<a class="posts-title" href="blog-single.html"><h3>Bandung Geological Museum</h3></a>
 							<p class="excert">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.
+								1928 museum with exhibits ranging from rocks & minerals to invertebrate & vertebrate fossils. The Bandung Geological Museum opened in Bandung, Indonesia in 1928. On December 10, 1871, six meteorites fell in Sindanglaut, West Java, Indonesia. This rare fall of a LL6 chondrite included an 11.5 kg TKW that is held by the Bandung Geological Museum and the Paris Museum of History.
 							</p>
 							<a href="blog-single.html" class="primary-btn">View More</a>
 						</div>
