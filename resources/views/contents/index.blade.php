@@ -295,6 +295,7 @@
 @endsection
 
 @section('customJS')
+	<script src="../../../ext/js/sweetalert.min.js" type="text/javascript"></script>
 	@if(Session::has('_e'))
 		<link rel="stylesheet" href="../../../ext/css/toastr.css">
 		<script src="../../../ext/js/toastr.min.js" type="text/javascript"></script>
@@ -306,11 +307,16 @@
 	@endif
 
 	@if(Session::has('_e2'))
-  		<script src="../../../ext/js/sweetalert.min.js" type="text/javascript"></script>
   		<script type="text/javascript">
 
 			swal ( "Your request has been sended." ,  "Please wait an email confirmation form our team!" ,  "success" )
 
+  		</script>
+  	@endif
+
+  	@if(Session::has('_e3'))
+  		<script>
+  			swal("Your request has been processed", "Please wait for the next confirmation sent to your email.", "success");
   		</script>
   	@endif
 @endsection

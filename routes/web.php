@@ -37,6 +37,8 @@ Route::get('/signup', function() {
 
 Route::post('/signup', 'Auth\CustomLoginController@custom_signup')->name('signup');
 Route::post('/propose', 'Auth\CustomLoginController@custom_propose')->name('propose');
+Route::post('/book', 'BookingController@custom_propose')->name('book');
+
 
 Route::get('/gift-shop', function() {
 	return View('contents.giftshop');
@@ -56,4 +58,8 @@ Route::get('/guide-detail/{id}', function() {
 
 Route::get('/destination-detail/{id}', function() {
 	return View('contents.destinationdetail');
+});
+
+Route::get('/gift-shop-detail/{id}', function() {
+	return View('contents.giftshopdetail');
 });

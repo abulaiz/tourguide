@@ -33,7 +33,7 @@
 	        <ul class="nav-menu">
 	          <li><a href="/">Home</a></li>
 	          <li><a href="/destination">Destinations</a></li>
-	          <li><a href="packages.html">Gift Shop</a></li>
+	          <li><a href="/gift-shop">Gift Shop</a></li>
 	          @if(!$has_login)
 	          <li><a href="apply-tour-guide">Join As Tour Guide</a></li>
 	          @endif

@@ -48,11 +48,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/pasar-baru.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Pasar Baru Trade Center</h3></a>
+							<a class="posts-title" href="/gift-shop-detail/1"><h3>Pasar Baru Trade Center</h3></a>
 							<p class="excert">
 								Just located in bandung city centre. They sells clothes and various textiles from different pattern, quality and price. It is cheaper and good quality. This shopping mall usually open at 8.30am to 5.00pm.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/gift-shop-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -75,11 +75,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/chinatown.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Chinatown Bandung</h3></a>
+							<a class="posts-title" href="/gift-shop-detail/1"><h3>Chinatown Bandung</h3></a>
 							<p class="excert">
 								Preserving the history, we bring you to feel the good old China in the central of Bandung city. Chinatown bandung a mini theme park with chinese town inspired. Constructed in the Chinese architectural style, with so many photo spot you will love from traditional Paifang a Mandarin Chinese large red arch entrance until the typical mini chinese garden.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/gift-shop-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -99,11 +99,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/cibaduyut.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Cibaduyut Shoes Industry</h3></a>
+							<a class="posts-title" href="/gift-shop-detail/1"><h3>Cibaduyut Shoes Industry</h3></a>
 							<p class="excert">
 								Forget about nice well organize location, focused on what you want to buy. Prices are differ range depends on quality and brand. You can also bargain because some shops aren't set up fixed price. Worth to visit and grab one of those shoes for a souvenir or your daily use!
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/gift-shop-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -124,11 +124,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/kartika-sari.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Kartika Sari</h3></a>
+							<a class="posts-title" href="/gift-shop-detail/1"><h3>Kartika Sari</h3></a>
 							<p class="excert">
 								While travelling in Indonesia by road over long distances, one always take break at one of the highway rest areas. These places provide facilities like food, comfort rooms, souvenir shops & prayer area. For many years I have been buying cakes & pastries of a famous brands - Kartika Sari. Their products are also available in few supermarkets in Jakarta. Kartika Sari is from Bandung & if you are there it is worth a visit to their iconic shop in the city.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/gift-shop-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -151,11 +151,11 @@
 							<div class="feature-img">
 								<img class="img-fluid" src="../../../assets1/img/udjo.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Saung Angklung Udjo</h3></a>
+							<a class="posts-title" href="/gift-shop-detail/1"><h3>Saung Angklung Udjo</h3></a>
 							<p class="excert">
 								Saung Angklung Udjo was established in 1996 by Udjo Ngalagena and his wife Uum Sumiati. The buildings are built based on the traditional Sundanese setting, with bamboo huts and bamboo-decorated interiors, as well as plenty of bamboo trees around the main building. Apart from its angklung performances, Saung Angklung Mang Udjo has also bamboo handicraft centre and bamboo instrument workshop.
 							</p>
-							<a href="blog-single.html" class="primary-btn">View More</a>
+							<a href="/gift-shop-detail/1" class="primary-btn">View More</a>
 						</div>
 					</div>														
 					<nav class="blog-pagination justify-content-center d-flex">
@@ -199,7 +199,7 @@
 										<img class="img-fluid" src="../../../assets1/img/blog/pp1.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Space The Final Frontier</h6></a>
+										<a href="/gift-shop-detail/1"><h6>Space The Final Frontier</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -208,7 +208,7 @@
 										<img class="img-fluid" src="../../../assets1/img/blog/pp2.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>The Amazing Hubble</h6></a>
+										<a href="/gift-shop-detail/1"><h6>The Amazing Hubble</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -217,7 +217,7 @@
 										<img class="img-fluid" src="../../../assets1/img/blog/pp3.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Astronomy Or Astrology</h6></a>
+										<a href="/gift-shop-detail/1"><h6>Astronomy Or Astrology</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -226,7 +226,7 @@
 										<img class="img-fluid" src="../../../assets1/img/blog/pp4.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Asteroids telescope</h6></a>
+										<a href="/gift-shop-detail/1"><h6>Asteroids telescope</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>															
