@@ -7,4 +7,10 @@
                               }
                           })[0].selectize;
 
-    $('.selectize-control').hide();
+
+$(document).ready(function(){
+	$( document.getElementsByClassName('nice-select')[0] ).css('padding-left', '15px');
+	$( document.getElementsByClassName('nice-select')[1] ).hide();
+    $('.selectize-input').css('font-size', 'inherit');
+    $('.selectize-input').css('font-family', 'inherit');
+});

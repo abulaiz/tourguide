@@ -32,7 +32,8 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-6 col-md-6 mx-auto">
-						<form action="#" method="POST">
+						<form action="{{ route('propose') }}" method="POST">
+							@csrf
 							<div class="mt-20">
 								<input type="text" name="name" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'" required class="single-input">
 							</div>
@@ -81,15 +82,6 @@
 								</div>
 							</div>
 							<div class="mt-20">
-								<label>Attach Certificate</label>
-								<input type="file" name="SERTIFIKAT" class="single-input" placeholder="Your Certificates">
-							</div>
-
-							<div class="mt-30">
-								<a href="#" class="genric-btn primary circle pull-right">Propose</a>
-							</div>
-
-							<div class="mt-20">
 		                        <select style="display: none;" multiple id="selectize-multiple2">
 		                            <option value="">Your Language Ability</option>
 		                            <option value="1">English</option>
@@ -97,7 +89,16 @@
 		                            <option value="3">Japanese</option>
 		                            <option value="4">Mandarin</option>
 		                        </select>
+							</div>							
+							<div class="mt-20">
+								<label>Attach Certificate</label>
+								<input type="file" name="SERTIFIKAT" class="single-input" placeholder="Your Certificates">
 							</div>
+
+							<div class="mt-30">
+								<input type="submit" name="submit" class="genric-btn primary circle pull-right" value="Propose">
+							</div>
+
 						</form>
 					</div>
 				</div>

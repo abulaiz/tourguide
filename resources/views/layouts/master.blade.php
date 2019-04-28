@@ -21,8 +21,8 @@
 			<script src="../../../assets1/js/hoverIntent.js"></script>
 			<script src="../../../assets1/js/superfish.min.js"></script>	
 			<script src="../../../assets1/js/jquery.ajaxchimp.min.js"></script>
-			<script src="../../../assets1/js/jquery.magnific-popup.min.js"></script>						
 			<script src="../../../assets1/js/jquery.nice-select.min.js"></script>					
+			<script src="../../../assets1/js/jquery.magnific-popup.min.js"></script>						
 			<script src="../../../assets1/js/owl.carousel.min.js"></script>							
 			<script src="../../../assets1/js/mail-script.js"></script>	
 			<script src="../../../assets1/js/main.js"></script>	

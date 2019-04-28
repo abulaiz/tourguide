@@ -9,7 +9,7 @@
 						<p class="text-white">
 							The cooler climate of the highland plantation area, variety of food, less expensive fashion shops located in factory outlets and distros, golf courses, scenery, and the zoo, are some of the attractions of the city. Bandung is also a popular shopping destination due to cheap textile and fashion products. <b>Best city ever</b>.
 						</p>
-						<a href="#" class="primary-btn text-uppercase">Sign Up</a>
+						<a href="find-guide" class="primary-btn text-uppercase">Hire Tour Guide</a>
 					</div>
 				</div>
 			</div>					

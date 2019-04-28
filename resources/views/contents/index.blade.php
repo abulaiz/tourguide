@@ -296,12 +296,21 @@
 
 @section('customJS')
 	@if(Session::has('_e'))
-	<link rel="stylesheet" href="../../../ext/css/toastr.css">
-	<script src="../../../ext/js/toastr.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="../../../ext/css/toastr.css">
+		<script src="../../../ext/js/toastr.min.js" type="text/javascript"></script>
 
-	<script type="text/javascript">
-      toastr.success('You can login now :).', 'Sign Up Success!', {
-        positionClass: 'toast-bottom-right', containerId: 'toast-bottom-right', 'showMethod': 'slideDown', 'hideMethod': 'slideUp', timeOut: 6000});		
-	</script>
+		<script type="text/javascript">
+		  toastr.success('You can login now :).', 'Sign Up Success!', {
+		    positionClass: 'toast-bottom-right', containerId: 'toast-bottom-right', 'showMethod': 'slideDown', 'hideMethod': 'slideUp', timeOut: 6000});		
+		</script>
 	@endif
+
+	@if(Session::has('_e2'))
+  		<script src="../../../ext/js/sweetalert.min.js" type="text/javascript"></script>
+  		<script type="text/javascript">
+
+			swal ( "Your request has been sended." ,  "Please wait an email confirmation form our team!" ,  "success" )
+
+  		</script>
+  	@endif
 @endsection

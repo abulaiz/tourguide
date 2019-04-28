@@ -29,9 +29,10 @@ class CustomLoginController extends Controller
 	        return redirect('/')->with(['_e'=>'success']);     	
         } else {
         	return redirect()->back()->with(['_f' => $v->messages()]);
-        }
+        }       
+    }
 
-        
-             
+    public function custom_propose(Request $req){
+    	return redirect('/')->with(['_e2'=>'success']);
     }
 }

@@ -34,6 +34,7 @@ Route::get('/signup', function() {
 
 
 Route::post('/signup', 'Auth\CustomLoginController@custom_signup')->name('signup');
+Route::post('/propose', 'Auth\CustomLoginController@custom_propose')->name('propose');
 
 Route::get('/gift-shop', function() {
 	return View('contents.giftshop');
