@@ -320,4 +320,10 @@
   			swal("Your request has been processed", "Please wait for the next confirmation sent to your email.", "success");
   		</script>
   	@endif
+
+  	@if( $errors->has('email') || $errors->has('password') )
+  		<script>
+  			swal("Login Failed !", "Be sure your email and password is correct.", "danger");
+  		</script>
+  	@endif
 @endsection
