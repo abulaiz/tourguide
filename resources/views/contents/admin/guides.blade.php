@@ -1,5 +1,6 @@
 @extends('layout.bases')
-@section('page_title', 'Guides')
+@section('page_title', 'Tour Guide')
+@section('guides', 'active')
 
 @section('content')
 

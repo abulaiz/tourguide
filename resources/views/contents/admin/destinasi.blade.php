@@ -1,6 +1,6 @@
 @extends('layout.bases')
-@section('page_title', 'Home')
-@section('dashboard', 'active')
+@section('page_title', 'Destinasi Wisata')
+@section('destinasi', 'active')
 
 @section('content')
 
@@ -12,8 +12,8 @@
 				</div>
 				<div class="card-body">
 					<div class="table-responsive">
-						<table class="table table-bordered table-hover">
-							<thead>
+						<table class="table">
+							<thead class=" text-primary">
 								<tr class="text-center">
 									<th>No.</th>
 									<th>Nama Tempat Wisata</th>

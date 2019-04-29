@@ -50,22 +50,7 @@
 							</form>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget mail-chimp">
-						<h6 class="mb-20">InstaFeed</h6>
-						<ul class="instafeed d-flex flex-wrap">
-							<li><img src="../../../assets1/img/i1.jpg" alt=""></li>
-							<li><img src="../../../assets1/img/i2.jpg" alt=""></li>
-							<li><img src="../../../assets1/img/i3.jpg" alt=""></li>
-							<li><img src="../../../assets1/img/i4.jpg" alt=""></li>
-							<li><img src="../../../assets1/img/i5.jpg" alt=""></li>
-							<li><img src="../../../assets1/img/i6.jpg" alt=""></li>
-							<li><img src="../../../assets1/img/i7.jpg" alt=""></li>
-							<li><img src="../../../assets1/img/i8.jpg" alt=""></li>
-						</ul>
-					</div>
-				</div>						
+				</div>					
 			</div>
 
 			<div class="row footer-bottom d-flex justify-content-between align-items-center">

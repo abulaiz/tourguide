@@ -1,5 +1,6 @@
 @extends('layout.bases')
-@section('page_title', 'Tourist')
+@section('page_title', 'Turis')
+@section('tourist', 'active')
 
 @section('content')
 

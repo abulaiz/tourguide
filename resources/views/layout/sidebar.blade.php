@@ -23,26 +23,26 @@
               <p>Pengajuan Tour Guide</p>
             </a>
           </li>                
-          <li class="nav-item">
-            <a class="nav-link" href="/">
+          <li class="nav-item @yield('destinasi')">
+            <a class="nav-link" href="/destinasi">
               <i class="material-icons">account_balance</i>
               <p>Destinasi Wisata</p>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">
+          <li class="nav-item @yield('toko-buah-tangan')">
+            <a class="nav-link" href="/toko-buah-tangan">
               <i class="material-icons">store</i>
               <p>Toko Buah Tangan</p>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">
+          <li class="nav-item @yield('tourist')">
+            <a class="nav-link" href="/tourist">
               <i class="material-icons">supervisor_account</i>
               <p>Kelola Turis</p>
             </a>
           </li> 
-          <li class="nav-item">
-            <a class="nav-link" href="/">
+          <li class="nav-item @yield('guides')">
+            <a class="nav-link" href="/guides">
               <i class="material-icons">how_to_reg</i>
               <p>Kelola Tour Guide</p>
             </a>
